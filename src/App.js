@@ -6,11 +6,11 @@ import PlanetCard from './components/PlanetCard';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <main>
         <Header />
         <SolarSystem />
         <PlanetCard />
-      </div>
+      </main>
     );
   }
 }
