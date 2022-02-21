@@ -1,3 +1,90 @@
+@font-face {
+  font-family: Nasa-Title;
+  src: url('nasalization-rg.otf');
+}
+
+@font-face {
+  font-family: Nasa-Text;
+  src: url('Nasa21.ttf');
+}
+
+body {
+  background-image: url('./images/background.png');
+  margin-left: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
 .App {
+  color: white;
+  font-family: Nasa-Text , sans-serif;
+  letter-spacing: 3px;
   text-align: center;
 }
+
+.header {
+  display: flex;
+  font-family: Nasa-Title , sans-serif;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.planetsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.planetCard {
+  background-image: linear-gradient(rgba(230, 230, 230, 0.233), rgba(13, 12, 24, 0.925));
+  border-radius: 50px 5px;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  margin: 5px;
+  padding: 0 15px 10px;
+  transition: 1s;
+  width: 20%;
+}
+
+.planetCard:hover {
+  background-image: linear-gradient(rgba(13, 12, 24, 0.925), rgba(230, 230, 230, 0.233));
+  width: 27%;
+}
+
+.missoesContainer {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.missionCard {
+  background-color: rgba(0, 0, 0, 0.479);
+  border: 1px solid rgba(255, 255, 255, 0.418);
+  border-radius: 5px 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 5px;
+  padding: 0 15px 10px;
+  width: 20%;
+}
+
+.missionCard:hover {
+  background-color: rgba(218, 218, 218, 0.479);
+  color: black;
+}
+
+.title {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.26), rgb(43, 43, 43), rgba(0, 0, 0, 0.26));
+  padding: 10px 0;
+}
+
+.titleCard {
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+
