@@ -26,13 +26,15 @@ Neste projeto comecei a criar componentes de classe e também sobre passagem de 
 [Site do Projeto](https://prtpj1-project-solar-system-neon.vercel.app/)
 
 ## Como rodar a aplicação?
-
-1. Clone o repositório: <br>
+- Clone o repositório: <br>
 `git clone git@github.com:prtpj1/project-solar-system.git` 
-2. Instale as dependências: <br>
+- Acesse a pasta do projeto: <br>
+`cd project-solar-system`
+- Instale as dependências: <br>
 `npm install`
-3. Inicie a aplicação: <br>
-`npm start` → aguarde a aplicação abrir no seu navegador. Caso não ocorra, coloque na barra de endereços do seu navegador: **http://localhost:3000/**
+- Inicie a aplicação: <br>
+`npm start` <br>
+⚠️Aguarde a aplicação abrir no seu navegador. Caso não ocorra, coloque na barra de endereços do seu navegador: `http://localhost:3000/`
 </br>
 
 **OBS:**
